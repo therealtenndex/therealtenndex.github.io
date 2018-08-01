@@ -1,6 +1,7 @@
 h1 {
     color: red;
     font-size: 420%;
+	text-align: center;
 text-decoration: underline;
         text-shadow:
 		-1px -1px 0 #000,
@@ -10,6 +11,7 @@ text-decoration: underline;
 p {
     color: red;
     font-size: 150%;
+	text-align: center;
 text-decoration: underline;
         text-shadow:
 		-1px -1px 0 #000,
