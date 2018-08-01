@@ -8,16 +8,6 @@ text-decoration: underline;
 		-1px 1px 0 #000,
 		1px 1px 0 #000
 }
-p {
-    color: red;
-text-decoration: underline;
-	font-size: 100%;
-        text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000
-}
 audio { 
    display:none;
 }
