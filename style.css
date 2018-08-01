@@ -1,7 +1,7 @@
 h1 {
     color: red;
     text-align: center;
-	font-size: 450%;
+	font-size: 420%;
 	text-decoration: underline;
         text-shadow:
 		-1px -1px 0 #000,
@@ -10,9 +10,9 @@ h1 {
 		1px 1px 0 #000
 }
 body {
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
