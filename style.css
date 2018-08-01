@@ -7,6 +7,15 @@ text-decoration: underline;
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000
+		h1 {
+    color: red;
+    font-size: 150%;
+text-decoration: underline;
+        text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000
 }
 audio { 
    display:none;
@@ -22,4 +31,3 @@ div {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-}
