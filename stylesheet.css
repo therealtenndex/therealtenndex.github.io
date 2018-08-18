@@ -1,1 +1,3 @@
-background-image: url("gradient_bg.png");
+body {
+  background-image: url("background.jpg");
+}
