@@ -4,10 +4,16 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <script>
+      function myFunction() {
+      document.getElementById("frm1").submit();
+      document.getElementById("list").innerHTML = "Test Text"; 
+      }
+</script>
    <div class="first">
    <h1>Evil Zombies Waiting List</h1>
    <h3>Please read instructions before proceeding</h3>
-    <form>  
+    <form id="frm1">  
       <fieldset style="width:400px">
       <legend>Submission Form</legend>
       Gamertag:<br>
@@ -18,9 +24,10 @@
       <input type="radio" name="streamer" value="lisa"> xZOMBIExLISAx <br>
       <input type="radio" name="streamer" value="blackdog"> blackdog82002<br>
       <input type="radio" name="streamer" value="tenndex"> TheRealTenndex<br>
-      <input type="submit" value="Submit">
+      <input type="button" onclick="myFunction()" value="Submit">
       </fieldset>
     </form>
     </div>
+    <p id="list">
    </body>
 </html>
