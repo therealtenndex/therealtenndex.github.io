@@ -1,1 +1,5 @@
-s
+body#about a#aboutnav
+{
+	color: #fff;
+	background: #930;
+}
